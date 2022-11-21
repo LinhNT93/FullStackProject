@@ -9,8 +9,6 @@ module.exports = {
       lastName: 'Linh',
       address:'VN',
       gender: 1,
-      typeRole: 'ROLE',
-      keyRole:'R1',
       createdAt: new Date(),
       updatedAt: new Date()
     }]);
@@ -19,3 +17,4 @@ module.exports = {
     return queryInterface.bulkDelete('Users', null, {});
   }
 };
+
